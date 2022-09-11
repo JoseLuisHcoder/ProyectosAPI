@@ -1,0 +1,51 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+img {
+    width: 100%;
+    display: block;
+}
+.container {
+    max-width: 1025px;
+    margin: auto;
+}
+.pokemons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.container_btn {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    gap: 1rem;
+    padding: 1rem;
+    padding-bottom: 2rem;
+
+}
+.btn {
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.inputSearch {
+    width: 100%;
+    padding: 1rem;  
+    border: none;
+    background-color: whitesmoke;
+    padding: 1rem;  
+    border-radius: 0.5rem;
+    margin: 1rem;
+    outline: none;
+    border: 3px solid white;
+    transition: border 0.5s;
+}
+.inputSearch:focus {
+    border: 3px solid rgb(145, 135, 135);
+}
